@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_ej5_7">
+
+    <TextView
+        android:id="@+id/textView370"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Adivina quien soy"
+        android:textColor="#03A9F4"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView371"
+        android:layout_width="347dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="12dp"
+        android:text="Estos son los mensajes que Luis e Itzel mandaron a Toño. Léelos y selecciona las figuras de la ilustración que indican los mensajes. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView370" />
+
+    <TextView
+        android:id="@+id/textView372"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="4dp"
+        android:text="1. Es una figura que tiene 3 lados. "
+        app:layout_constraintEnd_toStartOf="@+id/mat57_spn1"
+        app:layout_constraintTop_toBottomOf="@+id/textView371" />
+
+    <Spinner
+        android:id="@+id/mat57_spn1"
+        android:layout_width="137dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView371" />
+
+    <Spinner
+        android:id="@+id/mat57_spn2"
+        android:layout_width="137dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat57_spn1" />
+
+    <Spinner
+        android:id="@+id/mat57_spn3"
+        android:layout_width="138dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat57_spn2" />
+
+    <TextView
+        android:id="@+id/textView373"
+        android:layout_width="211dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="12dp"
+        android:text="2. Es una figura que tiene 4 lados iguales pero no tiene lados perpendiculares. "
+        app:layout_constraintEnd_toStartOf="@+id/mat57_spn2"
+        app:layout_constraintTop_toBottomOf="@+id/textView372" />
+
+    <TextView
+        android:id="@+id/textView374"
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="4dp"
+        android:text="3. Es una figura que tiene lados perpendiculares e iguales 2 a 2. "
+        app:layout_constraintEnd_toStartOf="@+id/mat57_spn3"
+        app:layout_constraintTop_toTopOf="@+id/textView373" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="236dp"
+        android:text="Continuar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView374" />
+
+    <TextView
+        android:id="@+id/mat57_txtAciertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="16dp"
+        android:text="Aciertos:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button30" />
+</androidx.constraintlayout.widget.ConstraintLayout>

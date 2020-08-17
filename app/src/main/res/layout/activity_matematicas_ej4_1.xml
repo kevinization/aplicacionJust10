@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_ej4_1">
+
+    <TextView
+        android:id="@+id/textView336"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Ubicación espacial"
+        android:textColor="#03A9F4"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView337"
+        android:layout_width="365dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="19dp"
+        android:text="El espacio se organiza a partir de un sistema de referencias que implica establecer relaciones espaciales que se establecen entre pucuyantos de referencia, para ubicar en el espacio objetos o lugares posición se desconoce. "
+        android:textColor="#F44336"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView336" />
+
+    <TextView
+        android:id="@+id/textView338"
+        android:layout_width="365dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="22dp"
+        android:text="La intención del trabajo con el espacio es que los usuarios construyan sistemas de referencia respecto a la ubicación espacial que les permitan comprender que el espacio puede describirse por medio de ciertas relaciones que se establecen entre objetos (puntos de referencia). "
+        android:textColor="#4CAF50"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView337" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="273dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="113dp"
+        android:onClick="Ue1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView338"
+        app:srcCompat="@drawable/botoncontinuar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

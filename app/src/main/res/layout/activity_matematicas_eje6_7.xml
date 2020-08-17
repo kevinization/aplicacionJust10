@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_eje6_7">
+
+    <TextView
+        android:id="@+id/mat67_txtAciertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Aciertos:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="comprobacion"
+        android:text="Continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView398"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Quesos y crema"
+        android:textColor="#9C27B0"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView399"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Resuelve los siguientes problemas: "
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView398" />
+
+    <TextView
+        android:id="@+id/textView400"
+        android:layout_width="373dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:text="La señora Julia compró medio litro de crema, un queso grande y un cuarto de queso chico, ¿Cuánto pagó? "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView399" />
+
+    <EditText
+        android:id="@+id/mat67_txtNum1"
+        android:layout_width="67dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView400" />
+
+    <TextView
+        android:id="@+id/textView401"
+        android:layout_width="364dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="8dp"
+        android:text="Doña Juana compró un queso chico y lo repartió en partes iguales entre sus 4 hijas, ¿Cuánto le tocó a cada hija? "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat67_txtNum1" />
+
+    <Spinner
+        android:id="@+id/mat67_spn1"
+        android:layout_width="109dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView401" />
+
+    <Spinner
+        android:id="@+id/mat67_spn2"
+        android:layout_width="111dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView402" />
+
+    <TextView
+        android:id="@+id/textView402"
+        android:layout_width="376dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        android:text="Agustín compró un litro de crema y lo repartió en partes iguales entre sus 2 hermanos, ¿Cuánto le tocó a cada uno? "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.342"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat67_spn1" />
+
+    <TextView
+        android:id="@+id/textView403"
+        android:layout_width="373dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:text="Para escribir cantidades como un medio o un cuarto, se pueden utilizar las fracciones. Un medio se escribe así: 𝟏/𝟐; un cuarto así: 𝟏/𝟒 "
+        android:textColor="#F44336"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat67_spn2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

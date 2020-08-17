@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_eje6_10">
+
+    <TextView
+        android:id="@+id/textView421"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Miel y fruta seca"
+        android:textColor="#8BC34A"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView422"
+        android:layout_width="380dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:text="En otro sitio de la carretera había un puesto en el que vendían miel de abeja, nueces, pistaches y piñones. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView421" />
+
+    <ImageView
+        android:id="@+id/imageView98"
+        android:layout_width="wrap_content"
+        android:layout_height="133dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView422"
+        app:srcCompat="@drawable/furutassecas" />
+
+    <TextView
+        android:id="@+id/textView423"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="¿Cuántos kilos marca la manecilla de la báscula? "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView98" />
+
+    <EditText
+        android:id="@+id/mat610_txtNum1"
+        android:layout_width="94dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView423" />
+
+    <EditText
+        android:id="@+id/mat610_txtNum2"
+        android:layout_width="70dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="19dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/mat610_txtNum3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView99" />
+
+    <EditText
+        android:id="@+id/mat610_txtNum4"
+        android:layout_width="70dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="85dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView99" />
+
+    <Button
+        android:id="@+id/button70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="comprobacion"
+        android:text="Continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/mat610_txtAciertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Aciertos:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/mat610_txtNum3"
+        android:layout_width="70dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="13dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/mat610_txtNum4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView99" />
+
+    <TextView
+        android:id="@+id/textView424"
+        android:layout_width="369dp"
+        android:layout_height="36dp"
+        android:text="Anota debajo de cada dibujo cuántos kilogramos marca la manecilla de la báscula. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat610_txtNum1" />
+
+    <ImageView
+        android:id="@+id/imageView99"
+        android:layout_width="402dp"
+        android:layout_height="176dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView424"
+        app:srcCompat="@drawable/balanza" />
+</androidx.constraintlayout.widget.ConstraintLayout>

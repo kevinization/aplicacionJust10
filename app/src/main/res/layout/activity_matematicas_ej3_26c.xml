@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_ej3_26c">
+
+    <TextView
+        android:id="@+id/textView269"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La biblioteca "
+        android:textColor="#FF9800"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView270"
+        android:layout_width="358dp"
+        android:layout_height="38dp"
+        android:text="A los niños les gustó mucho ir a la biblioteca. Ahora quieren tener una en su casa, y van a comprar libros. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView269" />
+
+    <ImageView
+        android:id="@+id/imageView66"
+        android:layout_width="387dp"
+        android:layout_height="149dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView270"
+        app:srcCompat="@drawable/estanterialibros" />
+
+    <TextView
+        android:id="@+id/textView271"
+        android:layout_width="369dp"
+        android:layout_height="60dp"
+        android:text="En el equipo de Itzel hay 6 niños y quieren comprar un libro que cuesta $18. Si todos dan la misma cantidad, ¿Con cuánto dinero tiene que cooperar cada niño? "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView66" />
+
+    <EditText
+        android:id="@+id/mat326_txtNum1"
+        android:layout_width="77dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView271" />
+
+    <EditText
+        android:id="@+id/mat326_txtNum2"
+        android:layout_width="77dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView274" />
+
+    <TextView
+        android:id="@+id/textView272"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lee cómo resolvieron el problema los niños. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat326_txtNum1" />
+
+    <ImageView
+        android:id="@+id/imageView67"
+        android:layout_width="405dp"
+        android:layout_height="116dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView272"
+        app:srcCompat="@drawable/problemadeninos" />
+
+    <TextView
+        android:id="@+id/textView273"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="15dp"
+        android:text="¿Obtuvieron Itzel y Toño el mismo resultado? "
+        app:layout_constraintEnd_toStartOf="@+id/mat326_spn1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView67" />
+
+    <Spinner
+        android:id="@+id/mat326_spn1"
+        android:layout_width="74dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView67" />
+
+    <TextView
+        android:id="@+id/mat326_txtAciertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Aciertos:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="comprobacion"
+        android:text="Continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView274"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="¿Con cuánto dinero va a cooperar cada niño del equipo? "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView273" />
+</androidx.constraintlayout.widget.ConstraintLayout>

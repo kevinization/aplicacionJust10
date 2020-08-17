@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_ej3_7">
+
+    <TextView
+        android:id="@+id/textView125"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Las Canicas"
+        android:textColor="#3F51B5"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="385dp"
+        android:layout_height="224dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat37_txtNum2"
+        app:srcCompat="@drawable/lascanicasazules" />
+
+    <EditText
+        android:id="@+id/mat37_txtNum3"
+        android:layout_width="51dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/textView129"
+        app:layout_constraintTop_toBottomOf="@+id/imageView38" />
+
+    <TextView
+        android:id="@+id/textView129"
+        android:layout_width="27dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="31dp"
+        android:text="x"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/mat37_txtNum4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView38" />
+
+    <TextView
+        android:id="@+id/textView133"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="83dp"
+        android:text="En Total:"
+        app:layout_constraintEnd_toStartOf="@+id/mat37_txtNum6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView38" />
+
+    <TextView
+        android:id="@+id/textView130"
+        android:layout_width="27dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="31dp"
+        android:text="="
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/mat37_txtNum5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView38" />
+
+    <TextView
+        android:id="@+id/textView131"
+        android:layout_width="27dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="29dp"
+        android:text="+"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/mat37_txtNum7"
+        app:layout_constraintTop_toBottomOf="@+id/textView129" />
+
+    <EditText
+        android:id="@+id/mat37_txtNum5"
+        android:layout_width="51dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="90dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView38" />
+
+    <EditText
+        android:id="@+id/mat37_txtNum4"
+        android:layout_width="51dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/textView130"
+        app:layout_constraintTop_toBottomOf="@+id/imageView38" />
+
+    <TextView
+        android:id="@+id/textView132"
+        android:layout_width="27dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="29dp"
+        android:text="="
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/mat37_txtNum8"
+        app:layout_constraintTop_toBottomOf="@+id/textView130" />
+
+    <EditText
+        android:id="@+id/mat37_txtNum7"
+        android:layout_width="51dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/textView132"
+        app:layout_constraintTop_toBottomOf="@+id/mat37_txtNum4" />
+
+    <EditText
+        android:id="@+id/mat37_txtNum11"
+        android:layout_width="65dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="76dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat37_txtNum10" />
+
+    <EditText
+        android:id="@+id/mat37_txtNum10"
+        android:layout_width="62dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="76dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat37_txtNum9" />
+
+    <EditText
+        android:id="@+id/mat37_txtNum9"
+        android:layout_width="61dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="76dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat37_txtNum8" />
+
+    <EditText
+        android:id="@+id/mat37_txtNum8"
+        android:layout_width="51dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="90dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat37_txtNum5" />
+
+    <EditText
+        android:id="@+id/mat37_txtNum6"
+        android:layout_width="51dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/textView131"
+        app:layout_constraintTop_toBottomOf="@+id/mat37_txtNum3" />
+
+    <EditText
+        android:id="@+id/mat37_txtNum2"
+        android:layout_width="51dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/textView128"
+        app:layout_constraintTop_toBottomOf="@+id/textView125" />
+
+    <TextView
+        android:id="@+id/textView127"
+        android:layout_width="27dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="16dp"
+        android:text="x"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/mat37_txtNum2"
+        app:layout_constraintTop_toBottomOf="@+id/textView125" />
+
+    <TextView
+        android:id="@+id/textView128"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="128dp"
+        android:text="canicas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView125" />
+
+    <TextView
+        android:id="@+id/textView126"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Aquí hay"
+        app:layout_constraintEnd_toStartOf="@+id/mat37_txtNum1"
+        app:layout_constraintTop_toBottomOf="@+id/textView125" />
+
+    <EditText
+        android:id="@+id/mat37_txtNum1"
+        android:layout_width="51dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView127"
+        app:layout_constraintTop_toBottomOf="@+id/textView125" />
+
+    <TextView
+        android:id="@+id/textView134"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="18dp"
+        android:text="¿Cuántas canicas verdes hay en total? "
+        app:layout_constraintEnd_toStartOf="@+id/mat37_txtNum9"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat37_txtNum6" />
+
+    <TextView
+        android:id="@+id/textView135"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="¿Cuántas canicas rojas hay en total? "
+        app:layout_constraintEnd_toStartOf="@+id/mat37_txtNum10"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView134" />
+
+    <TextView
+        android:id="@+id/textView136"
+        android:layout_width="248dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="9dp"
+        android:text="¿Cuántas canicas azules hay en total? "
+        app:layout_constraintEnd_toStartOf="@+id/mat37_txtNum11"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView135" />
+
+    <TextView
+        android:id="@+id/textView137"
+        android:layout_width="220dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:text="¿De qué color hay más canicas? "
+        app:layout_constraintEnd_toStartOf="@+id/mat37_spn1"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView136" />
+
+    <Spinner
+        android:id="@+id/mat37_spn1"
+        android:layout_width="117dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat37_txtNum11" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:onClick="comprobacion"
+        android:text="Continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/mat37_txtAciertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="12dp"
+        android:text="Aciertos:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

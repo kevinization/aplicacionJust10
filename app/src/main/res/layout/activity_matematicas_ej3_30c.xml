@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_ej3_30c">
+
+    <TextView
+        android:id="@+id/textView291"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repartimos los billetitos"
+        android:textColor="#8BC34A"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView292"
+        android:layout_width="384dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="19dp"
+        android:text="Cuando salieron de la biblioteca, Itzel, Mónica, Meche y Rosa decidieron jugar al banquito. “¡Vamos a repartirnos los billetes y monedas!”, les propuso Itzel. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView291" />
+
+    <ImageView
+        android:id="@+id/imageView71"
+        android:layout_width="399dp"
+        android:layout_height="171dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView292"
+        app:srcCompat="@drawable/itzelyamigas" />
+
+    <TextView
+        android:id="@+id/textView293"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Lee lo que dicen Itzel y sus amigas. "
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView71" />
+
+    <ImageView
+        android:id="@+id/imageView72"
+        android:layout_width="397dp"
+        android:layout_height="141dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView293"
+        app:srcCompat="@drawable/itzelyamigasdos" />
+
+    <TextView
+        android:id="@+id/textView294"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:text="¿Cuánto dinero le tocó en total a cada niña?  "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView72" />
+
+    <EditText
+        android:id="@+id/mat330_txtNum1"
+        android:layout_width="79dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView72" />
+
+    <TextView
+        android:id="@+id/textView295"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="¿Sobraron billetes o monedas? "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView294" />
+
+    <Spinner
+        android:id="@+id/mat330_spn1"
+        android:layout_width="94dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="96dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView294" />
+</androidx.constraintlayout.widget.ConstraintLayout>

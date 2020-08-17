@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_ej3_31">
+
+    <TextView
+        android:id="@+id/textView296"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repartimos los billetitos"
+        android:textColor="#8BC34A"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView297"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Lee lo que hizo Mónica para repartir sus 36: "
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView296" />
+
+    <ImageView
+        android:id="@+id/imageView73"
+        android:layout_width="404dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="13dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView297"
+        app:srcCompat="@drawable/monica" />
+
+    <TextView
+        android:id="@+id/textView298"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:text="¿Cuánto dinero le tocó a cada niña? "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView73" />
+
+    <EditText
+        android:id="@+id/mat330_txtNum1"
+        android:layout_width="91dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="64dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView73" />
+
+    <EditText
+        android:id="@+id/mat330_txtNum2"
+        android:layout_width="91dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView299" />
+
+    <EditText
+        android:id="@+id/mat330_txtNum3"
+        android:layout_width="91dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="36dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat330_txtNum2" />
+
+    <EditText
+        android:id="@+id/mat330_txtNum4"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/textView305"
+        app:layout_constraintTop_toBottomOf="@+id/textView302" />
+
+    <EditText
+        android:id="@+id/mat330_txtNum6"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView302" />
+
+    <EditText
+        android:id="@+id/mat330_txtNum9"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat330_txtNum6" />
+
+    <EditText
+        android:id="@+id/mat330_txtNum5"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/textView307"
+        app:layout_constraintTop_toBottomOf="@+id/textView302" />
+
+    <EditText
+        android:id="@+id/mat330_txtNum7"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="72dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView306" />
+
+    <EditText
+        android:id="@+id/mat330_txtNum8"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/textView308"
+        app:layout_constraintTop_toBottomOf="@+id/mat330_txtNum5" />
+
+    <TextView
+        android:id="@+id/textView306"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:text="72 ÷ 6 ="
+        app:layout_constraintEnd_toStartOf="@+id/mat330_txtNum8"
+        app:layout_constraintTop_toBottomOf="@+id/textView305" />
+
+    <TextView
+        android:id="@+id/textView304"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="1dp"
+        android:text="140 ÷ 7 ="
+        app:layout_constraintEnd_toStartOf="@+id/mat330_txtNum7"
+        app:layout_constraintTop_toBottomOf="@+id/textView303" />
+
+    <TextView
+        android:id="@+id/textView299"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="Realiza los repartos de las otras niñas: "
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView298" />
+
+    <TextView
+        android:id="@+id/textView300"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="28dp"
+        android:text="$64 entre 4 niñas. A cada niña le tocan: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView299" />
+
+    <TextView
+        android:id="@+id/textView301"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="31dp"
+        android:text="$28 entre 4 niñas. A cada niña le tocan: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView300" />
+
+    <TextView
+        android:id="@+id/textView302"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="Realiza los siguientes repartos: "
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView301" />
+
+    <TextView
+        android:id="@+id/textView303"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="8dp"
+        android:text="63 ÷ 9 ="
+        app:layout_constraintEnd_toStartOf="@+id/mat330_txtNum4"
+        app:layout_constraintTop_toBottomOf="@+id/textView302" />
+
+    <TextView
+        android:id="@+id/textView305"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="56 ÷ 8 ="
+        app:layout_constraintEnd_toStartOf="@+id/mat330_txtNum5"
+        app:layout_constraintTop_toBottomOf="@+id/textView302" />
+
+    <TextView
+        android:id="@+id/textView307"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="1dp"
+        android:text="96 ÷ 8 = "
+        app:layout_constraintEnd_toStartOf="@+id/mat330_txtNum6"
+        app:layout_constraintTop_toBottomOf="@+id/textView302" />
+
+    <TextView
+        android:id="@+id/textView308"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="1dp"
+        android:text="100 ÷ 10 ="
+        app:layout_constraintEnd_toStartOf="@+id/mat330_txtNum9"
+        app:layout_constraintTop_toBottomOf="@+id/textView307" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

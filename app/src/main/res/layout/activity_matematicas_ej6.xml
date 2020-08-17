@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_ej6">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Magnitudes y medidas"
+        android:textColor="#4CAF50"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="370dp"
+        android:layout_height="169dp"
+        android:layout_marginTop="12dp"
+        android:text="Los aspectos relacionados con la medición ocupan un lugar relevante, porque constituyen una fuente muy rica de situaciones y un punto de enlace con otros temas. No obstante, su estudio se reduce, en muchos casos, a la memorización de fórmulas o de las reglas para hacer conversiones entre las unidades del Sistema Métrico Decimal. "
+        android:textColor="#F44336"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="370dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="12dp"
+        android:text="Con las situaciones que se presentan en cada uno de los temas, se pretende dar mayor significado a los conocimientos que se manejan. "
+        android:textColor="#9C27B0"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="370dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="13dp"
+        android:text="Se plantean actividades que permiten reflexionar acerca de lo que significa medir, así como poner en claro la relación que existe entre el proceso de medición y el sistema de medida que se utilice "
+        android:textColor="#2196F3"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="276dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="116dp"
+        android:onClick="mat61"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/botoncontinuar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

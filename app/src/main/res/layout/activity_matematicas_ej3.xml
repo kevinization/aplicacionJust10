@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_ej3">
+
+    <TextView
+        android:id="@+id/textView88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Multiplicación y División"
+        android:textColor="#4CAF50"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView89"
+        android:layout_width="363dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="12dp"
+        android:text="Es importante recordar que el propósito de la enseñanza de la multiplicación y la división no es únicamente ni principalmente saber ejecutar técnicas usuales para calcular los resultados. "
+        android:textColor="#2196F3"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView88" />
+
+    <TextView
+        android:id="@+id/textView90"
+        android:layout_width="371dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="1dp"
+        android:text="Se pretende que los usuarios logren una comprensión amplia del sentido de estas operaciones, que puedan aplicarlas con flexibilidad para resolver una variedad de problemas cada vez mayor, que sean capaces de proporcionar mentalmente resultados aproximados y que dispongan de estrategias de cálculos adecuadas, entre las cuales están las técnicas usuales. "
+        android:textColor="#F44336"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView89" />
+
+    <TextView
+        android:id="@+id/textView91"
+        android:layout_width="367dp"
+        android:layout_height="154dp"
+        android:text="Por ello, las actividades que se plantean van más allá del manejo de dichas técnicas. El tiempo de estudio que se invierte en estos procesos se recupera ampliamente: los niños, además de lograr una comprensión más profunda de estas operaciones y de sus propiedades, siguen desarrollando la capacidad fundamental de abordar y resolver problemas nuevos. "
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView90" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="267dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:onClick="Md1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView91"
+        app:srcCompat="@drawable/botoncontinuar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

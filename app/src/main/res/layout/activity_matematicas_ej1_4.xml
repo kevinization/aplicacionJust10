@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".acivity_mateamticas_ej1_4">
+
+    <TextView
+        android:id="@+id/mat14_txtAciertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Aciertos: "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="280dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
+        android:text="El tiro al blanco"
+        android:textColor="#4CAF50"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="378dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
+        android:text="¿Cúales son los premios que se ganan con menos puntos?"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <Spinner
+        android:id="@+id/mat14_spn1"
+        android:layout_width="196dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <Spinner
+        android:id="@+id/mat14_spn2"
+        android:layout_width="196dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="373dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="28dp"
+        android:text="¿Cuál premio se gana con mas puntos?"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat14_spn1" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="343dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
+        android:text="Ordena de mayor a menor los números que tienen los premios."
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat14_spn2" />
+
+    <Spinner
+        android:id="@+id/mat14_spn8"
+        android:layout_width="96dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toEndOf="@+id/mat14_spn7"
+        app:layout_constraintTop_toBottomOf="@+id/mat14_spn4" />
+
+    <Spinner
+        android:id="@+id/mat14_spn4"
+        android:layout_width="96dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/mat14_spn5"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <Spinner
+        android:id="@+id/mat14_spn5"
+        android:layout_width="96dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/mat14_spn6"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <Spinner
+        android:id="@+id/mat14_spn6"
+        android:layout_width="96dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <Spinner
+        android:id="@+id/mat14_spn3"
+        android:layout_width="96dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:clickable="false"
+        app:layout_constraintEnd_toStartOf="@+id/mat14_spn4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <Spinner
+        android:id="@+id/mat14_spn7"
+        android:layout_width="96dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat14_spn3" />
+
+    <Spinner
+        android:id="@+id/mat14_spn12"
+        android:layout_width="105dp"
+        android:layout_height="36dp"
+        app:layout_constraintStart_toEndOf="@+id/mat14_spn11"
+        app:layout_constraintTop_toBottomOf="@+id/mat14_spn9" />
+
+    <Spinner
+        android:id="@+id/mat14_spn11"
+        android:layout_width="96dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="108dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat14_spn8" />
+
+    <Spinner
+        android:id="@+id/mat14_spn10"
+        android:layout_width="94dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toEndOf="@+id/mat14_spn9"
+        app:layout_constraintTop_toBottomOf="@+id/mat14_spn6" />
+
+    <Spinner
+        android:id="@+id/mat14_spn9"
+        android:layout_width="96dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toEndOf="@+id/mat14_spn8"
+        app:layout_constraintTop_toBottomOf="@+id/mat14_spn5" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="comprobacion"
+        android:text="Continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

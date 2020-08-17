@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_ej3_32c">
+
+    <TextView
+        android:id="@+id/textView309"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repartos"
+        android:textColor="#FF5722"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView310"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llegó el momento de repartir las utilidades de la cooperativa "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView309" />
+
+    <TextView
+        android:id="@+id/textView311"
+        android:layout_width="365dp"
+        android:layout_height="91dp"
+        android:text="A Toño, Luis, Itzel, y otros cinco amigos les tocaron $72. Decidieron repartirse el dinero en partes iguales. Fíjate en el procedimiento que utiliza Toño para hacer la división 72 ÷ 8:  "
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView310" />
+
+    <ImageView
+        android:id="@+id/imageView74"
+        android:layout_width="405dp"
+        android:layout_height="178dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView311"
+        app:srcCompat="@drawable/tonoluisitzel" />
+
+    <TextView
+        android:id="@+id/textView312"
+        android:layout_width="348dp"
+        android:layout_height="41dp"
+        android:text="Resuelve las siguientes divisiones usando la casita. Recuerda: adentro va el número que se va a repartir "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView74" />
+
+    <TextView
+        android:id="@+id/textView313"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="21 ÷ 3 = "
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/mat329_txtNum8"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView312" />
+
+    <ImageView
+        android:id="@+id/imageView75"
+        android:layout_width="127dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView312"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/division" />
+
+    <EditText
+        android:id="@+id/mat329_txtNum14"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/imageView75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView313" />
+
+    <EditText
+        android:id="@+id/mat329_txtNum8"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="156dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView75"
+        app:layout_constraintTop_toBottomOf="@+id/textView312" />
+
+    <EditText
+        android:id="@+id/mat329_txtNum10"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="7dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/imageView75"
+        app:layout_constraintStart_toStartOf="@+id/imageView75"
+        app:layout_constraintTop_toBottomOf="@+id/mat329_txtNum8" />
+
+    <EditText
+        android:id="@+id/mat329_txtNum12"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="7dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/imageView75"
+        app:layout_constraintStart_toStartOf="@+id/imageView75"
+        app:layout_constraintTop_toBottomOf="@+id/mat329_txtNum10" />
+
+    <EditText
+        android:id="@+id/editTextNumber235"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat329_txtNum12"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

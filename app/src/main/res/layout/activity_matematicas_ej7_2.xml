@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_ej7_2">
+
+    <TextView
+        android:id="@+id/textView452"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="¿A qué jugamos?"
+        android:textColor="#03A9F4"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView453"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="La votación quedó así "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView452" />
+
+    <ImageView
+        android:id="@+id/imageView104"
+        android:layout_width="403dp"
+        android:layout_height="136dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView453"
+        app:srcCompat="@drawable/aquejugamostabla" />
+
+    <TextView
+        android:id="@+id/textView454"
+        android:layout_width="255dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="15dp"
+        android:text="Si suman los votos de las canicas y los votos de la lotería, ¿Cuántos votos son? "
+        app:layout_constraintEnd_toStartOf="@+id/mat72_txtNum1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView104" />
+
+    <EditText
+        android:id="@+id/mat72_txtNum1"
+        android:layout_width="92dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="36dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView104" />
+
+    <EditText
+        android:id="@+id/mat72_txtNum2"
+        android:layout_width="92dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="36dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat72_txtNum1" />
+
+    <EditText
+        android:id="@+id/mat72_txtNum3"
+        android:layout_width="92dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="92dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat72_txtNum2" />
+
+    <Button
+        android:id="@+id/button74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="comprobacion"
+        android:text="Continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/mat72_txtAciertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Aciertos:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView456"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="14dp"
+        android:text="Si suman los votos del balero y los votos de serpientes y escaleras, ¿Cuántos votos son?  "
+        app:layout_constraintEnd_toStartOf="@+id/mat72_txtNum2"
+        app:layout_constraintTop_toBottomOf="@+id/textView454" />
+
+    <TextView
+        android:id="@+id/textView457"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:text="¿Cuántos niños votaron en total? "
+        app:layout_constraintEnd_toStartOf="@+id/mat72_txtNum3"
+        app:layout_constraintTop_toBottomOf="@+id/textView456" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

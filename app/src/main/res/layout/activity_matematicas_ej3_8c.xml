@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_ej3_8c">
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="comprobacion"
+        android:text="Continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/mat38_txtAciertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Aciertos:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView138"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cobijas de cuadritos"
+        android:textColor="#3F51B5"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView139"
+        android:layout_width="358dp"
+        android:layout_height="33dp"
+        android:text="En el grupo de Mónica e Itzel hacen cuadritos de tela para hacerles cobijas a sus muñecas. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView138" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="411dp"
+        android:layout_height="208dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView139"
+        app:srcCompat="@drawable/cobijacuadrosuno" />
+
+    <EditText
+        android:id="@+id/mat38_txtNum2"
+        android:layout_width="63dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/textView141"
+        app:layout_constraintTop_toBottomOf="@+id/imageView39" />
+
+    <EditText
+        android:id="@+id/mat38_txtNum5"
+        android:layout_width="63dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/textView143"
+        app:layout_constraintTop_toBottomOf="@+id/imageView40" />
+
+    <EditText
+        android:id="@+id/mat38_txtNum1"
+        android:layout_width="63dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="2dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/textView140"
+        app:layout_constraintTop_toBottomOf="@+id/imageView39" />
+
+    <EditText
+        android:id="@+id/mat38_txtNum4"
+        android:layout_width="63dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/textView142"
+        app:layout_constraintTop_toBottomOf="@+id/imageView40" />
+
+    <EditText
+        android:id="@+id/mat38_txtNum3"
+        android:layout_width="63dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="120dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView39" />
+
+    <EditText
+        android:id="@+id/mat38_txtNum6"
+        android:layout_width="63dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="120dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView40" />
+
+    <TextView
+        android:id="@+id/textView140"
+        android:layout_width="22dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="22dp"
+        android:text="x"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/mat38_txtNum2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView39" />
+
+    <TextView
+        android:id="@+id/textView142"
+        android:layout_width="22dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="34dp"
+        android:text="x"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/mat38_txtNum5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView40" />
+
+    <TextView
+        android:id="@+id/textView141"
+        android:layout_width="22dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="24dp"
+        android:text="="
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/mat38_txtNum3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView39" />
+
+    <TextView
+        android:id="@+id/textView143"
+        android:layout_width="22dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="34dp"
+        android:text="="
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/mat38_txtNum6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView40" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="413dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mat38_txtNum2"
+        app:srcCompat="@drawable/cobijacuadrosdos" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

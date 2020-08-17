@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_eje7">
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="276dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="284dp"
+        android:onClick="mat71"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView465"
+        app:srcCompat="@drawable/botoncontinuar" />
+
+    <TextView
+        android:id="@+id/textView465"
+        android:layout_width="363dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="14dp"
+        android:text="En este tema se abordan los contenidos de recolección, organización y análisis de la información. "
+        android:textColor="#009688"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView464" />
+
+    <TextView
+        android:id="@+id/textView464"
+        android:layout_width="368dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="33dp"
+        android:text="En la actualidad se recibe constantemente información en estadísticas, gráficas y tablas. Por ello, es necesario que los usuarios se inicien en el análisis de la información de estadística simple, presentada en forma de gráficas o tablas. "
+        android:textColor="#F44336"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView369" />
+
+    <TextView
+        android:id="@+id/textView369"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estadística"
+        android:textColor="#03A9F4"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

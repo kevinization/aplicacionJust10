@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_ej6_11">
+
+    <TextView
+        android:id="@+id/textView425"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Miel y fruta seca"
+        android:textColor="#8BC34A"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView426"
+        android:layout_width="281dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="12dp"
+        android:text="El frasco de 1/2 litro de miel cuesta la mitad de lo que cuesta el de 1 litro, ¿Cuánto hay que pagar por 1/2 litro de miel? "
+        app:layout_constraintEnd_toStartOf="@+id/mat611_txtNum1"
+        app:layout_constraintTop_toBottomOf="@+id/textView425" />
+
+    <EditText
+        android:id="@+id/mat611_txtNum1"
+        android:layout_width="78dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView425" />
+
+    <EditText
+        android:id="@+id/mat611_txtNum2"
+        android:layout_width="82dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat611_txtNum1" />
+
+    <TextView
+        android:id="@+id/textView427"
+        android:layout_width="289dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:text="El frasco de 1/4 de litro de miel cuesta la mitad de lo que cuesta el de 1/2 litro, ¿Cuánto hay que pagar por 1/4 de litro de miel? "
+        app:layout_constraintEnd_toStartOf="@+id/mat611_txtNum2"
+        app:layout_constraintTop_toBottomOf="@+id/textView426" />
+
+    <TextView
+        android:id="@+id/textView428"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Paco compró una docena de nueces y le dieron esta cantidad: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView427" />
+
+    <ImageView
+        android:id="@+id/imageView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView428"
+        app:srcCompat="@drawable/nueces" />
+
+    <Button
+        android:id="@+id/button71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:onClick="comprobacion"
+        android:text="Continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/mat611_txtAciertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="12dp"
+        android:text="Aciertos:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView432"
+        android:layout_width="356dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="12dp"
+        android:text="¿Dónde hay más, en media docena o en dos cuartos de docena? "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.036"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat611_spn1" />
+
+    <TextView
+        android:id="@+id/textView429"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="20dp"
+        android:text="¿Cuántas nueces hay en media docena? "
+        app:layout_constraintEnd_toStartOf="@+id/mat611_txtNum3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView100" />
+
+    <Spinner
+        android:id="@+id/mat611_spn1"
+        android:layout_width="142dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView431" />
+
+    <EditText
+        android:id="@+id/mat611_txtNum3"
+        android:layout_width="85dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="48dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView100" />
+
+    <Spinner
+        android:id="@+id/mat611_spn2"
+        android:layout_width="130dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="268dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView432" />
+
+    <EditText
+        android:id="@+id/mat611_txtNum4"
+        android:layout_width="95dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat611_txtNum3" />
+
+    <TextView
+        android:id="@+id/textView430"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:text="¿Cuántas nueces hay en un cuarto de docena? "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView429" />
+
+    <TextView
+        android:id="@+id/textView431"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="¿Dónde hay más, en media docena o en un cuarto de docena? "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView430" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

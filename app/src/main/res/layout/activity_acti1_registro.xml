@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_acti1_registro">
+
+    <TextView
+        android:id="@+id/textView470"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20dp"
+        android:text="Nivel Educativo"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_edad2" />
+
+    <EditText
+        android:id="@+id/txt_edad2"
+        android:layout_width="315dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/edad"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nombre2" />
+
+    <EditText
+        android:id="@+id/txt_nombre2"
+        android:layout_width="315dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/nombre"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView65" />
+
+    <ImageView
+        android:id="@+id/imageView65"
+        android:layout_width="219dp"
+        android:layout_height="185dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/temas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/usericon" />
+
+    <Button
+        android:id="@+id/btnRegistrarBD"
+        android:layout_width="317dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="16dp"
+        android:text="REGISTRAR"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="158dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView470">
+
+        <RadioButton
+            android:id="@+id/rbPrimaria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Primaria" />
+
+        <RadioButton
+            android:id="@+id/rbSecundaria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Secundaria" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnConsultarBD"
+        android:layout_width="9dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="4dp"
+        android:text="Consultar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegistrarBD" />
+
+    <Button
+        android:id="@+id/btnDeletedatos"
+        android:layout_width="9dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="52dp"
+        android:text="ELIMINAR DATOS"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnConsultarBD" />
+</androidx.constraintlayout.widget.ConstraintLayout>

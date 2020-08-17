@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Just10</string>
+    <string name="temas_app">Temas</string>
+    <string name="pantallainicio_app">pantalla</string>
+    <string name="cambio_app">cambiopantalla</string>
+    <string name="texto">txt</string>
+    <string name="temas">temasymas</string>
+    <string name="nombre">Nombre:</string>
+    <string name="edad">Edad:</string>
+    <string name="rb1">Preescolar</string>
+    <string name="rb2">Primaria</string>
+    <string name="rb3">Secundaria</string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="btnInicio">Iniciar</string>
+    <string name="infoTema">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium ornare felis, ut pretium erat dignissim sit amet. Maecenas bibendum placerat interdum. Fusce vel suscipit metus. Vivamus tempus, justo ut dignissim pretium, lorem nisl ultrices ligula, vitae varius nisi nibh volutpat nibh. Integer vulputate vehicula tortor eu finibus. Vestibulum semper arcu ligula, ut mollis massa gravida vitae. In consequat laoreet porttitor. Morbi viverra ex mollis tellus euismod, sed sodales leo scelerisque. Fusce sed lorem sit amet ex sodales hendrerit.</string>
+    <string name="btnMenuPrincipal">Ir a menú principal</string>
+    <string name="changed_to">Notificación cambiada a las %s</string>
+    <string name="time_selected_is">La hora seleccionada es:</string>
+    <string name="change_time">Cambia la hora</string>
+    <string name="select_time">Selecciona la hora</string>
+    <string name="new_notification">Nueva notificación</string>
+    <string name="btnSiguiente">Continuar</string>
+
+</resources>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_ej3_28">
+
+    <TextView
+        android:id="@+id/textView283"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hilos de colores "
+        android:textColor="#8BC34A"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView286"
+        android:layout_width="354dp"
+        android:layout_height="56dp"
+        android:text="Julián contó que “entre los huicholes, lo más importante que aprenden las niñas es a bordar: deben saber unir el hilo y combinar bien los colores”. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView283" />
+
+    <ImageView
+        android:id="@+id/imageView69"
+        android:layout_width="343dp"
+        android:layout_height="137dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView286"
+        app:srcCompat="@drawable/hiloscoloresdibujos" />
+
+    <TextView
+        android:id="@+id/textView287"
+        android:layout_width="362dp"
+        android:layout_height="72dp"
+        android:text="La mamá de Julián enseña a bordar a 6 niñas y, para ello, reparte los hilos que necesitan. Estas son las madejas de hilo que les va a dar para hacer bordados como los de las fotografías. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView69" />
+
+    <ImageView
+        android:id="@+id/imageView70"
+        android:layout_width="362dp"
+        android:layout_height="95dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView287"
+        app:srcCompat="@drawable/hilosdecolores" />
+
+    <TextView
+        android:id="@+id/textView288"
+        android:layout_width="332dp"
+        android:layout_height="54dp"
+        android:text="Si la mamá de Julián le da a cada niña el mismo número de madejas de hilo, ¿Cuántas madejas de hilo azul le dará a cada una?  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.316"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView70" />
+
+    <EditText
+        android:id="@+id/mat328_txtNum1"
+        android:layout_width="82dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView288" />
+
+    <TextView
+        android:id="@+id/textView289"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="¿Cuántas madejas de hilo rojo? "
+        app:layout_constraintEnd_toStartOf="@+id/mat328_txtNum2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat328_txtNum1" />
+
+    <EditText
+        android:id="@+id/mat328_txtNum3"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="52dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat328_txtNum2" />
+
+    <Button
+        android:id="@+id/button54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="comprobacion"
+        android:text="Continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/mat328_txtAciertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Aciertos:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/mat328_txtNum2"
+        android:layout_width="97dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="96dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView288" />
+
+    <TextView
+        android:id="@+id/textView290"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="29dp"
+        android:text="¿Cuántas madejas de hilo amarillo? "
+        app:layout_constraintEnd_toStartOf="@+id/mat328_txtNum3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView289" />
+</androidx.constraintlayout.widget.ConstraintLayout>

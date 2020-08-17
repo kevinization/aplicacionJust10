@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_eje7_1">
+
+    <Button
+        android:id="@+id/button75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="mat72"
+        android:text="Continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView448"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="¿A qué jugamos?"
+        android:textColor="#03A9F4"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView449"
+        android:layout_width="361dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="4dp"
+        android:text="Ana va a organizar los juegos durante la excursión. Sus compañeros tienen distintas propuestas. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView448" />
+
+    <TextView
+        android:id="@+id/textView450"
+        android:layout_width="381dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="12dp"
+        android:text="Lee con cuidado lo que comentan sus compañeros. "
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView449" />
+
+    <ImageView
+        android:id="@+id/imageView103"
+        android:layout_width="386dp"
+        android:layout_height="275dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView450"
+        app:srcCompat="@drawable/aquejugamos" />
+
+    <TextView
+        android:id="@+id/textView451"
+        android:layout_width="371dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="11dp"
+        android:text="Para saber cuál juego prefieren los niños del grupo, Ana propone votar por 4 juegos; las canicas, la lotería, el balero y serpientes y escaleras. Cada niño puede votar sólo por un juego. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_eje6_2">
+
+    <Button
+        android:id="@+id/button60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:onClick="comprobacion"
+        android:text="Continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/mat62_txtAciertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="4dp"
+        android:text="Aciertos:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="356dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="16dp"
+        android:text="La terminal de autobuses"
+        android:textColor="#2196F3"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView199"
+        android:layout_width="381dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:text="Paco va a viajar de México a Xalapa, donde está la granja de su tío. Llega a la terminal en la que el autobús acaba de salir. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView200"
+        android:layout_width="375dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="4dp"
+        android:text="¿Cuánto tiempo tiene que esperar para que salga el siguiente autobús? "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView199" />
+
+    <EditText
+        android:id="@+id/mat62_txtNum2"
+        android:layout_width="72dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="9dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/mat62_spn2"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView378" />
+
+    <Spinner
+        android:id="@+id/mat62_spn2"
+        android:layout_width="91dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="204dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView378" />
+
+    <Spinner
+        android:id="@+id/mat62_spn4"
+        android:layout_width="105dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView381" />
+
+    <Spinner
+        android:id="@+id/mat62_spn3"
+        android:layout_width="100dp"
+        android:layout_height="26dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView380" />
+
+    <Spinner
+        android:id="@+id/mat62_spn1"
+        android:layout_width="91dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="204dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView200" />
+
+    <TextView
+        android:id="@+id/textView377"
+        android:layout_width="359dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="8dp"
+        android:text="Un señor va a viajar a Veracruz y llega a la terminal cuando el autobús acaba de salir. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat62_spn1" />
+
+    <TextView
+        android:id="@+id/textView378"
+        android:layout_width="361dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="4dp"
+        android:text="¿Cuánto tiempo tiene que esperar a la salida del próximo autobús? "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView377" />
+
+    <TextView
+        android:id="@+id/textView379"
+        android:layout_width="368dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="12dp"
+        android:text="Un reloj de manecillas marca las 5 en punto, es decir, las 5 horas con 0 minutos. Una manecilla marca las horas y la otra los minutos. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.418"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat62_spn2" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="348dp"
+        android:layout_height="105dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView379"
+        app:srcCompat="@drawable/relojes" />
+
+    <TextView
+        android:id="@+id/textView380"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="¿Cuál manecilla señala las horas, la grande o la chica? "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.194"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView381"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="¿Cuál manecilla señala los minutos, la grande o la chica? "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat62_spn3" />
+
+    <EditText
+        android:id="@+id/mat62_txtNum1"
+        android:layout_width="72dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="11dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/mat62_spn1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView200" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

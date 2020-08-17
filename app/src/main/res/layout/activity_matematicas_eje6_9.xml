@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_eje6_9">
+
+    <TextView
+        android:id="@+id/textView405"
+        android:layout_width="348dp"
+        android:layout_height="86dp"
+        android:text="Con el centímetro cuadrado"
+        android:textColor="#FFC107"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView408"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Cuántas veces cabe el cuadrado en la figura rosada? "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView405" />
+
+    <EditText
+        android:id="@+id/mat69_txtNum1"
+        android:layout_width="59dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView408" />
+
+    <TextView
+        android:id="@+id/textView411"
+        android:layout_width="365dp"
+        android:layout_height="35dp"
+        android:text="Cuando los lados de un cuadrado miden 1 centímetro, su superficie mide 1 centímetro cuadrado. "
+        android:textColor="#F44336"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat69_spn1" />
+
+    <EditText
+        android:id="@+id/mat69_txtNum6"
+        android:layout_width="59dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="48dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView414" />
+
+    <TextView
+        android:id="@+id/mat69_txtAciertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Aciertos:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="comprobacion"
+        android:text="Continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/mat69_txtNum5"
+        android:layout_width="59dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="52dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView415"
+        app:layout_constraintTop_toTopOf="@+id/textView419" />
+
+    <EditText
+        android:id="@+id/mat69_txtNum4"
+        android:layout_width="59dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView97" />
+
+    <EditText
+        android:id="@+id/mat69_txtNum3"
+        android:layout_width="59dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView417"
+        app:layout_constraintTop_toBottomOf="@+id/imageView97" />
+
+    <ImageView
+        android:id="@+id/imageView97"
+        android:layout_width="371dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView412"
+        app:srcCompat="@drawable/figurastres" />
+
+    <TextView
+        android:id="@+id/textView412"
+        android:layout_width="363dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:text="Teniendo en cuenta que cada cuadrito es un centímetro cuadrado, mide la superficie de las siguientes figuras: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView411" />
+
+    <Spinner
+        android:id="@+id/mat69_spn1"
+        android:layout_width="105dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView410" />
+
+    <TextView
+        android:id="@+id/textView413"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Esta figura mide "
+        app:layout_constraintEnd_toStartOf="@+id/mat69_txtNum3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView97" />
+
+    <TextView
+        android:id="@+id/textView414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:text="centímetros cuadrados. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView417" />
+
+    <TextView
+        android:id="@+id/textView418"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="40dp"
+        android:text="centímetros cuadrados. "
+        app:layout_constraintEnd_toStartOf="@+id/textView414"
+        app:layout_constraintTop_toTopOf="@+id/mat69_txtNum3" />
+
+    <TextView
+        android:id="@+id/textView415"
+        android:layout_width="126dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="64dp"
+        android:text="También podemos decir que el área de esta figura es "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView414" />
+
+    <TextView
+        android:id="@+id/textView419"
+        android:layout_width="126dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:text="También podemos decir que el área de esta figura es "
+        app:layout_constraintEnd_toEndOf="@+id/mat69_txtNum5"
+        app:layout_constraintTop_toBottomOf="@+id/textView418" />
+
+    <TextView
+        android:id="@+id/textView416"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="40dp"
+        android:text="centímetros cuadrados. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mat69_txtNum6" />
+
+    <TextView
+        android:id="@+id/textView420"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="39dp"
+        android:text="centímetros cuadrados. "
+        app:layout_constraintEnd_toStartOf="@+id/textView416"
+        app:layout_constraintTop_toBottomOf="@+id/mat69_txtNum5" />
+
+    <TextView
+        android:id="@+id/textView417"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Esta figura mide "
+        app:layout_constraintEnd_toStartOf="@+id/mat69_txtNum4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView97" />
+
+    <EditText
+        android:id="@+id/mat69_txtNum2"
+        android:layout_width="59dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView409" />
+
+    <TextView
+        android:id="@+id/textView409"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Cuántas veces cabe el cuadrado en la figura azul? "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.274"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat69_txtNum1" />
+
+    <TextView
+        android:id="@+id/textView410"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Cuál de las 2 figuras es la más grande? "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat69_txtNum2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

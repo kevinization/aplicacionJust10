@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_ej3_29">
+
+    <TextView
+        android:id="@+id/textView291"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hilos de colores "
+        android:textColor="#8BC34A"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView292"
+        android:layout_width="297dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="6dp"
+        android:text="Cuando repartiste 12 madejas de hilo azul entre 6 niñas, ¿le tocaron 2 madejas de hilo a cada niña? "
+        app:layout_constraintEnd_toStartOf="@+id/mat329_spn1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView291" />
+
+    <EditText
+        android:id="@+id/mat329_txtNum2"
+        android:layout_width="71dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView297"
+        app:layout_constraintTop_toBottomOf="@+id/mat329_txtNum1" />
+
+    <EditText
+        android:id="@+id/mat329_txtNum3"
+        android:layout_width="71dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="44dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat329_txtNum2" />
+
+    <TextView
+        android:id="@+id/textView296"
+        android:layout_width="16dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="12dp"
+        android:text="x"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/mat329_txtNum2"
+        app:layout_constraintTop_toBottomOf="@+id/mat329_txtNum1" />
+
+    <TextView
+        android:id="@+id/textView295"
+        android:layout_width="16dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="12dp"
+        android:text="6"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView296"
+        app:layout_constraintTop_toBottomOf="@+id/mat329_txtNum1" />
+
+    <TextView
+        android:id="@+id/textView300"
+        android:layout_width="180dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="9dp"
+        android:text="Este reparto también lo puedes anotar así: 18 ÷ 6 = "
+        app:layout_constraintEnd_toStartOf="@+id/mat329_txtNum4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView299" />
+
+    <TextView
+        android:id="@+id/textView294"
+        android:layout_width="201dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:text="La multiplicación que corresponde a este reparto es: "
+        app:layout_constraintEnd_toStartOf="@+id/textView295"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView293" />
+
+    <EditText
+        android:id="@+id/mat329_txtNum4"
+        android:layout_width="71dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="136dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView299" />
+
+    <TextView
+        android:id="@+id/textView293"
+        android:layout_width="185dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="13dp"
+        android:text="Este reparto también lo puedes anotar así: 12 ÷ 6 = "
+        app:layout_constraintEnd_toStartOf="@+id/mat329_txtNum1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView292" />
+
+    <TextView
+        android:id="@+id/textView298"
+        android:layout_width="26dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="44dp"
+        android:text="12"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat329_txtNum1" />
+
+    <TextView
+        android:id="@+id/textView297"
+        android:layout_width="16dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="12dp"
+        android:text="="
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView298"
+        app:layout_constraintTop_toBottomOf="@+id/mat329_txtNum1" />
+
+    <EditText
+        android:id="@+id/mat329_txtNum1"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="72dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView292" />
+
+    <TextView
+        android:id="@+id/textView299"
+        android:layout_width="279dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="1dp"
+        android:text="Cuando repartiste 18 madejas de hilo rojo entre 6 niñas, ¿Cuántas madejas de hilo le tocaron a cada niña? "
+        app:layout_constraintEnd_toStartOf="@+id/mat329_txtNum3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView294" />
+
+    <Spinner
+        android:id="@+id/mat329_spn1"
+        android:layout_width="80dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView291" />
+
+    <EditText
+        android:id="@+id/mat329_txtNum8"
+        android:layout_width="62dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="68dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView305" />
+
+    <TextView
+        android:id="@+id/textView327"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="4 ÷ 4 ="
+        app:layout_constraintEnd_toStartOf="@+id/mat329_txtNum8"
+        app:layout_constraintTop_toBottomOf="@+id/textView305" />
+
+    <EditText
+        android:id="@+id/mat329_txtNum5"
+        android:layout_width="71dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView302"
+        app:layout_constraintTop_toTopOf="@+id/textView301" />
+
+    <EditText
+        android:id="@+id/mat329_txtNum6"
+        android:layout_width="71dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView309"
+        app:layout_constraintTop_toTopOf="@+id/textView301" />
+
+    <EditText
+        android:id="@+id/mat329_txtNum13"
+        android:layout_width="62dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="2dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView303"
+        app:layout_constraintTop_toBottomOf="@+id/textView321" />
+
+    <TextView
+        android:id="@+id/textView317"
+        android:layout_width="26dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="13dp"
+        android:text="10"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView313"
+        app:layout_constraintTop_toBottomOf="@+id/textView321" />
+
+    <TextView
+        android:id="@+id/textView313"
+        android:layout_width="16dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="13dp"
+        android:text="x"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/mat329_txtNum13"
+        app:layout_constraintTop_toBottomOf="@+id/textView321" />
+
+    <EditText
+        android:id="@+id/mat329_txtNum11"
+        android:layout_width="62dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="3dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView325"
+        app:layout_constraintTop_toBottomOf="@+id/textView316" />
+
+    <EditText
+        android:id="@+id/mat329_txtNum9"
+        android:layout_width="62dp"
+        android:layout_height="31dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView319"
+        app:layout_constraintTop_toBottomOf="@+id/textView311" />
+
+    <EditText
+        android:id="@+id/mat329_txtNum7"
+        android:layout_width="62dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="2dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView314"
+        app:layout_constraintTop_toBottomOf="@+id/textView306" />
+
+    <EditText
+        android:id="@+id/mat329_txtNum14"
+        android:layout_width="62dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="64dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat329_txtNum12" />
+
+    <TextView
+        android:id="@+id/mat329_txtAciertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Aciertos:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="comprobacion"
+        android:text="Continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/mat329_txtNum12"
+        android:layout_width="62dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="60dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat329_txtNum10" />
+
+    <EditText
+        android:id="@+id/mat329_txtNum10"
+        android:layout_width="62dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="62dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat329_txtNum8" />
+
+    <TextView
+        android:id="@+id/textView328"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:text="18 ÷ 3 ="
+        app:layout_constraintEnd_toStartOf="@+id/mat329_txtNum10"
+        app:layout_constraintTop_toBottomOf="@+id/textView327" />
+
+    <TextView
+        android:id="@+id/textView306"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4 madejas de hilo entre 4 niñas: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView305" />
+
+    <TextView
+        android:id="@+id/textView308"
+        android:layout_width="16dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="13dp"
+        android:text="x"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/mat329_txtNum7"
+        app:layout_constraintTop_toBottomOf="@+id/textView306" />
+
+    <TextView
+        android:id="@+id/textView324"
+        android:layout_width="16dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="14dp"
+        android:text="x"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/mat329_txtNum11"
+        app:layout_constraintTop_toBottomOf="@+id/textView316" />
+
+    <TextView
+        android:id="@+id/textView318"
+        android:layout_width="16dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="11dp"
+        android:text="x"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/mat329_txtNum9"
+        app:layout_constraintTop_toBottomOf="@+id/textView311" />
+
+    <TextView
+        android:id="@+id/textView310"
+        android:layout_width="31dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="67dp"
+        android:text="50"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView330"
+        app:layout_constraintTop_toBottomOf="@+id/textView321" />
+
+    <TextView
+        android:id="@+id/textView326"
+        android:layout_width="31dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="75dp"
+        android:text="30"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView329"
+        app:layout_constraintTop_toBottomOf="@+id/textView316" />
+
+    <TextView
+        android:id="@+id/textView320"
+        android:layout_width="31dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="75dp"
+        android:text="18"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView328"
+        app:layout_constraintTop_toBottomOf="@+id/textView311" />
+
+    <TextView
+        android:id="@+id/textView315"
+        android:layout_width="26dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="80dp"
+        android:text="4"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView327"
+        app:layout_constraintTop_toBottomOf="@+id/textView306" />
+
+    <TextView
+        android:id="@+id/textView307"
+        android:layout_width="26dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="13dp"
+        android:text="4"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView308"
+        app:layout_constraintTop_toBottomOf="@+id/textView306" />
+
+    <TextView
+        android:id="@+id/textView303"
+        android:layout_width="16dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="13dp"
+        android:text="="
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView310"
+        app:layout_constraintTop_toBottomOf="@+id/textView321" />
+
+    <TextView
+        android:id="@+id/textView325"
+        android:layout_width="16dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="14dp"
+        android:text="="
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView326"
+        app:layout_constraintTop_toBottomOf="@+id/textView316" />
+
+    <TextView
+        android:id="@+id/textView319"
+        android:layout_width="16dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="11dp"
+        android:text="="
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView320"
+        app:layout_constraintTop_toBottomOf="@+id/textView311" />
+
+    <TextView
+        android:id="@+id/textView314"
+        android:layout_width="16dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="13dp"
+        android:text="="
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView315"
+        app:layout_constraintTop_toBottomOf="@+id/textView306" />
+
+    <TextView
+        android:id="@+id/textView304"
+        android:layout_width="26dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="196dp"
+        android:text="18"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView301" />
+
+    <TextView
+        android:id="@+id/textView302"
+        android:layout_width="16dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="38dp"
+        android:text="x"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/mat329_txtNum6"
+        app:layout_constraintTop_toTopOf="@+id/textView301" />
+
+    <TextView
+        android:id="@+id/textView312"
+        android:layout_width="26dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="11dp"
+        android:text="3"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView318"
+        app:layout_constraintTop_toBottomOf="@+id/textView311" />
+
+    <TextView
+        android:id="@+id/textView323"
+        android:layout_width="26dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="14dp"
+        android:text="3"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView324"
+        app:layout_constraintTop_toBottomOf="@+id/textView316" />
+
+    <TextView
+        android:id="@+id/textView309"
+        android:layout_width="16dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="38dp"
+        android:text="="
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView304"
+        app:layout_constraintTop_toTopOf="@+id/textView301" />
+
+    <TextView
+        android:id="@+id/textView301"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La multiplicación que corresponde a este reparto es"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView300" />
+
+    <TextView
+        android:id="@+id/textView305"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Haz los siguientes repartos; luego, completa las expresiones. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView304" />
+
+    <TextView
+        android:id="@+id/textView311"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="6 madejas de hilo entre 3 niñas: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat329_txtNum7" />
+
+    <TextView
+        android:id="@+id/textView316"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="30 madejas de hilo entre 3 niñas: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat329_txtNum9" />
+
+    <TextView
+        android:id="@+id/textView321"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="50 madejas de hilo entre 10 niñas: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat329_txtNum11" />
+
+    <TextView
+        android:id="@+id/textView329"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="30 ÷ 3 ="
+        app:layout_constraintEnd_toStartOf="@+id/mat329_txtNum12"
+        app:layout_constraintTop_toBottomOf="@+id/textView328" />
+
+    <TextView
+        android:id="@+id/textView330"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="50 ÷ 10="
+        app:layout_constraintEnd_toStartOf="@+id/mat329_txtNum14"
+        app:layout_constraintTop_toBottomOf="@+id/textView329" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_ej3_6">
+
+    <TextView
+        android:id="@+id/mat36_txtAciertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Aciertos:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="comprobacion"
+        android:text="Continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView119"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Las canicas "
+        android:textColor="#3F51B5"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="408dp"
+        android:layout_height="349dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView119"
+        app:srcCompat="@drawable/colocarnumerodecanicascuatro" />
+
+    <EditText
+        android:id="@+id/mat36_txtNum1"
+        android:layout_width="69dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/textView121"
+        app:layout_constraintTop_toBottomOf="@+id/imageView37" />
+
+    <EditText
+        android:id="@+id/mat36_txtNum3"
+        android:layout_width="72dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="88dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView37" />
+
+    <TextView
+        android:id="@+id/textView123"
+        android:layout_width="24dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:text="="
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/mat36_txtNum3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView37" />
+
+    <EditText
+        android:id="@+id/mat36_txtNum4"
+        android:layout_width="66dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/textView122"
+        app:layout_constraintTop_toBottomOf="@+id/mat36_txtNum1" />
+
+    <EditText
+        android:id="@+id/mat36_txtNum5"
+        android:layout_width="69dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/textView124"
+        app:layout_constraintTop_toBottomOf="@+id/mat36_txtNum2" />
+
+    <TextView
+        android:id="@+id/textView122"
+        android:layout_width="24dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="76dp"
+        android:text="+"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/mat36_txtNum5"
+        app:layout_constraintTop_toTopOf="@+id/textView121" />
+
+    <EditText
+        android:id="@+id/mat36_txtNum6"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="88dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat36_txtNum3" />
+
+    <TextView
+        android:id="@+id/textView124"
+        android:layout_width="24dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="76dp"
+        android:text="="
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/mat36_txtNum6"
+        app:layout_constraintTop_toTopOf="@+id/textView123" />
+
+    <TextView
+        android:id="@+id/textView120"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="52dp"
+        android:text="En Total:"
+        app:layout_constraintBottom_toTopOf="@+id/mat36_txtAciertos"
+        app:layout_constraintEnd_toStartOf="@+id/mat36_txtNum4" />
+
+    <EditText
+        android:id="@+id/mat36_txtNum2"
+        android:layout_width="64dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/textView123"
+        app:layout_constraintTop_toBottomOf="@+id/imageView37" />
+
+    <TextView
+        android:id="@+id/textView121"
+        android:layout_width="24dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:text="x"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/mat36_txtNum2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView37" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

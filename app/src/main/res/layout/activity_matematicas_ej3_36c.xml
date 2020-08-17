@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_ej3_36c">
+
+    <TextView
+        android:id="@+id/textView326"
+        android:layout_width="364dp"
+        android:layout_height="87dp"
+        android:text="¡Primero las monedas de 10!"
+        android:textColor="#FF5722"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView328"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ana y Leti van a repartir este dinero entre 5 niños: "
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView327" />
+
+    <TextView
+        android:id="@+id/textView327"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ana y Leti juegan a repartirse cantidades grandes de dinero. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView326" />
+
+    <ImageView
+        android:id="@+id/imageView83"
+        android:layout_width="358dp"
+        android:layout_height="58dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView328"
+        app:srcCompat="@drawable/monedasdos" />
+
+    <ImageView
+        android:id="@+id/imageView84"
+        android:layout_width="398dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView329"
+        app:srcCompat="@drawable/ninaesenandodividir" />
+
+    <TextView
+        android:id="@+id/textView329"
+        android:layout_width="328dp"
+        android:layout_height="42dp"
+        android:text="¿Recuerdas cómo se hacen los repartos en la casita de división? Fíjate cómo lo hace Lupe.          "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView83" />
+
+    <TextView
+        android:id="@+id/textView330"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reparte 89 entre 4 niños. Haz la división en la casita.      "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView84" />
+
+    <TextView
+        android:id="@+id/textView331"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="89 ÷ 4 = "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView330" />
+
+    <ImageView
+        android:id="@+id/imageView85"
+        android:layout_width="132dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.591"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView330"
+        app:srcCompat="@drawable/divisionsiete" />
+
+    <EditText
+        android:id="@+id/editTextNumber269"
+        android:layout_width="72dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="128dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView331"
+        app:layout_constraintTop_toBottomOf="@+id/textView330" />
+
+    <EditText
+        android:id="@+id/editTextNumber270"
+        android:layout_width="72dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="14dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView85"
+        app:layout_constraintStart_toStartOf="@+id/imageView85"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber269" />
+
+    <EditText
+        android:id="@+id/editTextNumber271"
+        android:layout_width="72dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="14dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView85"
+        app:layout_constraintStart_toStartOf="@+id/imageView85"
+        app:layout_constraintTop_toTopOf="@+id/editTextNumber270" />
+
+    <EditText
+        android:id="@+id/editTextNumber272"
+        android:layout_width="72dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="14dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView85"
+        app:layout_constraintStart_toStartOf="@+id/imageView85"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber271" />
+
+    <EditText
+        android:id="@+id/editTextNumber273"
+        android:layout_width="72dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="14dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView85"
+        app:layout_constraintStart_toStartOf="@+id/imageView85"
+        app:layout_constraintTop_toTopOf="@+id/editTextNumber272" />
+</androidx.constraintlayout.widget.ConstraintLayout>

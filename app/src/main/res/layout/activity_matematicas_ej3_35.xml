@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_ej3_35">
+
+    <TextView
+        android:id="@+id/textView322"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repartos"
+        android:textColor="#FF9800"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView323"
+        android:layout_width="327dp"
+        android:layout_height="34dp"
+        android:text="Utiliza el procedimiento que usó Luis para hacer los siguientes repartos: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView322" />
+
+    <TextView
+        android:id="@+id/textView324"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="90 ÷ 6 = "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView323" />
+
+    <EditText
+        android:id="@+id/editTextNumber259"
+        android:layout_width="81dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView81"
+        app:layout_constraintStart_toStartOf="@+id/imageView81"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber258" />
+
+    <EditText
+        android:id="@+id/editTextNumber262"
+        android:layout_width="81dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView81"
+        app:layout_constraintStart_toStartOf="@+id/imageView81"
+        app:layout_constraintTop_toTopOf="@+id/editTextNumber261" />
+
+    <EditText
+        android:id="@+id/editTextNumber263"
+        android:layout_width="81dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView325"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber262" />
+
+    <EditText
+        android:id="@+id/editTextNumber264"
+        android:layout_width="81dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="13dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView82"
+        app:layout_constraintStart_toStartOf="@+id/imageView82"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber263" />
+
+    <EditText
+        android:id="@+id/editTextNumber265"
+        android:layout_width="81dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="13dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView82"
+        app:layout_constraintStart_toStartOf="@+id/imageView82"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber264" />
+
+    <EditText
+        android:id="@+id/editTextNumber266"
+        android:layout_width="81dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="13dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView82"
+        app:layout_constraintStart_toStartOf="@+id/imageView82"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber264" />
+
+    <EditText
+        android:id="@+id/editTextNumber267"
+        android:layout_width="81dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginEnd="13dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView82"
+        app:layout_constraintStart_toStartOf="@+id/imageView82"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber266" />
+
+    <EditText
+        android:id="@+id/editTextNumber268"
+        android:layout_width="81dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="13dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView82"
+        app:layout_constraintStart_toStartOf="@+id/imageView82"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber267" />
+
+    <EditText
+        android:id="@+id/editTextNumber261"
+        android:layout_width="81dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView81"
+        app:layout_constraintStart_toStartOf="@+id/imageView81"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber260" />
+
+    <ImageView
+        android:id="@+id/imageView81"
+        android:layout_width="132dp"
+        android:layout_height="201dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.677"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView323"
+        app:srcCompat="@drawable/divisioncinco" />
+
+    <EditText
+        android:id="@+id/editTextNumber258"
+        android:layout_width="81dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="120dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView324"
+        app:layout_constraintTop_toBottomOf="@+id/textView323" />
+
+    <EditText
+        android:id="@+id/editTextNumber260"
+        android:layout_width="81dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView81"
+        app:layout_constraintStart_toStartOf="@+id/imageView81"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber259" />
+
+    <ImageView
+        android:id="@+id/imageView82"
+        android:layout_width="135dp"
+        android:layout_height="194dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.684"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber262"
+        app:srcCompat="@drawable/divisionseis" />
+
+    <TextView
+        android:id="@+id/textView325"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="256dp"
+        android:text="105 ÷ 7 = "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView324" />
+</androidx.constraintlayout.widget.ConstraintLayout>

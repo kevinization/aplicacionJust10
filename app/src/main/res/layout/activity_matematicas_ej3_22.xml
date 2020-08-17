@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_ej3_22">
+
+    <TextView
+        android:id="@+id/textView246"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Paredes de mosaicos "
+        android:textColor="#4CAF50"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView247"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Utiliza el mismo procedimiento para calcular lo siguiente: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView246" />
+
+    <ImageView
+        android:id="@+id/imageView60"
+        android:layout_width="407dp"
+        android:layout_height="213dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView247"
+        app:srcCompat="@drawable/paredesmosaicosuno" />
+
+    <EditText
+        android:id="@+id/mat322_txtNum2"
+        android:layout_width="56dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView60"
+        app:layout_constraintTop_toBottomOf="@+id/mat323_txtNum1" />
+
+    <EditText
+        android:id="@+id/mat323_txtNum1"
+        android:layout_width="56dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="72dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/mat322_txtNum4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView60" />
+
+    <EditText
+        android:id="@+id/mat322_txtNum3"
+        android:layout_width="56dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="23dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView60"
+        app:layout_constraintTop_toBottomOf="@+id/mat322_txtNum2" />
+
+    <EditText
+        android:id="@+id/mat322_txtNum4"
+        android:layout_width="56dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="97dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/mat322_txtNum3"
+        app:layout_constraintStart_toStartOf="@+id/imageView60"
+        app:layout_constraintTop_toTopOf="@+id/imageView60" />
+
+    <ImageView
+        android:id="@+id/imageView61"
+        android:layout_width="407dp"
+        android:layout_height="213dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView60"
+        app:srcCompat="@drawable/poaredesmosaicosdos" />
+
+    <EditText
+        android:id="@+id/mat322_txtNum6"
+        android:layout_width="56dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="23dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView61"
+        app:layout_constraintTop_toBottomOf="@+id/mat322_txtNum5" />
+
+    <EditText
+        android:id="@+id/mat322_txtNum7"
+        android:layout_width="56dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="23dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView61"
+        app:layout_constraintTop_toBottomOf="@+id/mat322_txtNum6" />
+
+    <EditText
+        android:id="@+id/mat322_txtNum8"
+        android:layout_width="56dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="178dp"
+        android:layout_marginEnd="97dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/mat322_txtNum7"
+        app:layout_constraintStart_toStartOf="@+id/imageView61"
+        app:layout_constraintTop_toTopOf="@+id/imageView61" />
+
+    <TextView
+        android:id="@+id/mat322_txtAciertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="4dp"
+        android:text="Aciertos:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:onClick="comprobacion"
+        android:text="Continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/mat322_txtNum5"
+        android:layout_width="56dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="23dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView61"
+        app:layout_constraintTop_toTopOf="@+id/imageView61" />
+</androidx.constraintlayout.widget.ConstraintLayout>

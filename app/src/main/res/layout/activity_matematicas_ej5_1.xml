@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_ej5_1">
+
+    <Button
+        android:id="@+id/button57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:onClick="mat52"
+        android:text="Continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView349"
+        android:layout_width="367dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="24dp"
+        android:text="Formas reflejadas en el agua"
+        android:textColor="#F44336"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView350"
+        android:layout_width="356dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="12dp"
+        android:text="Junto al zoológico hay un pequeño lago. Paco y Pepe se sentaron en la orilla y observaron cómo se reflejan las cosas en el agua. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView349" />
+
+    <TextView
+        android:id="@+id/textView351"
+        android:layout_width="367dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="12dp"
+        android:text="Observa  las cosas que se ven reflejadas en el agua "
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView350" />
+
+    <ImageView
+        android:id="@+id/imageView89"
+        android:layout_width="399dp"
+        android:layout_height="232dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView351"
+        app:srcCompat="@drawable/reflejo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

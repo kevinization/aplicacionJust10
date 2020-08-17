@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_eje6_13">
+
+    <TextView
+        android:id="@+id/textView436"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Miel y fruta seca"
+        android:textColor="#8BC34A"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView102"
+        android:layout_width="399dp"
+        android:layout_height="149dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView436"
+        app:srcCompat="@drawable/ninoscharlando" />
+
+    <TextView
+        android:id="@+id/textView437"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="¿Quién tiene razón, Paco o Ana? "
+        app:layout_constraintEnd_toStartOf="@+id/mat613_spn1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView102" />
+
+    <Spinner
+        android:id="@+id/mat613_spn1"
+        android:layout_width="137dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView102" />
+
+    <Spinner
+        android:id="@+id/mat613_spn2"
+        android:layout_width="89dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat613_spn1" />
+
+    <Spinner
+        android:id="@+id/mat613_spn4"
+        android:layout_width="205dp"
+        android:layout_height="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView441" />
+
+    <TextView
+        android:id="@+id/mat613_txtAciertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Aciertos:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="comprobacion"
+        android:text="Continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/mat613_spn3"
+        android:layout_width="225dp"
+        android:layout_height="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView440" />
+
+    <TextView
+        android:id="@+id/textView438"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Contesta las siguientes preguntas: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView437" />
+
+    <TextView
+        android:id="@+id/textView439"
+        android:layout_width="263dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:text="¿Es lo mismo 1/2 docena de nueces que docena y 1/2 de nueces? "
+        app:layout_constraintEnd_toStartOf="@+id/mat613_spn2"
+        app:layout_constraintTop_toBottomOf="@+id/textView438" />
+
+    <TextView
+        android:id="@+id/textView440"
+        android:layout_width="261dp"
+        android:layout_height="35dp"
+        android:text="¿Qué crees que pesa más, 1/2 kilo de nueces o 1/2 kilo de piñones? "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView439" />
+
+    <TextView
+        android:id="@+id/textView441"
+        android:layout_width="362dp"
+        android:layout_height="35dp"
+        android:text="¿Qué crees que pesa más, 1/2 kilo de pistaches o 2/4 de kilo de pistaches? "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat613_spn3" />
+
+    <TextView
+        android:id="@+id/textView442"
+        android:layout_width="353dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:text="𝟏/𝟐 litro es la misma cantidad que 𝟐/𝟒 de litro;  𝟏/𝟐 kilo es la misma cantidad que 𝟐/𝟒 de kilo.  "
+        android:textColor="#F44336"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat613_spn4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

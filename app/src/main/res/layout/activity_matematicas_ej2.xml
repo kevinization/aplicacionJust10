@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_ej2">
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="La suma y la resta"
+        android:textColor="#4CAF50"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="374dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="12dp"
+        android:text="Conocer las operaciones de suma y resta va más allá de saber resolver cuentas de suma o de resta.  "
+        android:textColor="#2196F3"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="374dp"
+        android:layout_height="172dp"
+        android:layout_marginTop="12dp"
+        android:text="Significa reconocer las situaciones en las que estas operaciones son útiles, saber escoger atinadamente el procedimiento más sencillo para resolver una suma o una resta, dependiendo de las cantidades involucradas, poder dar resultados aproximados y saber aplicar ciertas propiedades de la suma y de la resta para facilitar los cálculos. "
+        android:textColor="#F44336"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="374dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="12dp"
+        android:text="El propósito de estas actividades es analizar estos aspectos, y al mismo tiempo favorecer la reflexión sobre las condiciones didácticas que pueden propiciar un aprendizaje significativo de estas operaciones. "
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="249dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="132dp"
+        android:onClick="Suma2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView55"
+        app:srcCompat="@drawable/botoncontinuar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

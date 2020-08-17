@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacti"
+    tools:context=".activity_matematicas_ej3_24c">
+
+    <TextView
+        android:id="@+id/mat324_txtAciertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Aciertos:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="comprobacion"
+        android:text="Continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView255"
+        android:layout_width="383dp"
+        android:layout_height="88dp"
+        android:text="Traemos fruta del mercado "
+        android:textColor="#8BC34A"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView256"
+        android:layout_width="353dp"
+        android:layout_height="55dp"
+        android:text="Julián contó lo siguiente: a veces vamos al mercado a comprar frutas y verduras. Dependiendo de la temporada, compramos diferentes. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.241"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView255" />
+
+    <TextView
+        android:id="@+id/textView257"
+        android:layout_width="357dp"
+        android:layout_height="66dp"
+        android:text="Un día Julián y sus 4 amigos fueron al mercado a buscar frutas. Compraron las ciruelas que se ven en la fotografía. "
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.259"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView256" />
+
+    <ImageView
+        android:id="@+id/imageView64"
+        android:layout_width="327dp"
+        android:layout_height="132dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView257"
+        app:srcCompat="@drawable/frutas" />
+
+    <TextView
+        android:id="@+id/textView259"
+        android:layout_width="230dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="15dp"
+        android:text="Julián y sus 4 amigos se repartieron las ciruelas, ¿Entre cuántos niños hicieron el reparto? "
+        app:layout_constraintEnd_toStartOf="@+id/mat324_txtNum2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView258" />
+
+    <TextView
+        android:id="@+id/textView261"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="17dp"
+        android:text="¿Sobraron ciruelas? "
+        app:layout_constraintEnd_toStartOf="@+id/mat324_spn1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView260" />
+
+    <EditText
+        android:id="@+id/mat324_txtNum2"
+        android:layout_width="71dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="84dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat324_txtNum1" />
+
+    <EditText
+        android:id="@+id/mat324_txtNum3"
+        android:layout_width="71dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat324_txtNum1" />
+
+    <TextView
+        android:id="@+id/textView258"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="11dp"
+        android:text="¿Cuántas ciruelas recogieron? "
+        app:layout_constraintEnd_toStartOf="@+id/mat324_txtNum1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView64" />
+
+    <EditText
+        android:id="@+id/mat324_txtNum1"
+        android:layout_width="71dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="124dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView64" />
+
+    <Spinner
+        android:id="@+id/mat324_spn1"
+        android:layout_width="65dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="192dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView260" />
+
+    <TextView
+        android:id="@+id/textView260"
+        android:layout_width="292dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="¿Cuántas ciruelas le tocaron a cada niño se las repartieron de forma que le correspondiera la misma cantidad a cada uno? "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView259" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
